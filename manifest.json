@@ -1,0 +1,23 @@
+{
+  "name": "Chrome Sounds",
+  "version": "0.1",
+  "description": "Make images show nice when browsing local images",
+  "background": {
+    "scripts": ["bg.js"]
+  },
+  //"options_page": "options.html",
+  "icons": { "128": "icon.png" },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "http://*/*",
+    "https://*/*",
+    "history"
+  ],
+  "content_scripts": [ {
+    "matches": ["file:///*"],
+    "js": ["content.js"],
+    "all_frames": true
+  }],
+  "manifest_version": 2
+}
