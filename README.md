@@ -1,4 +1,6 @@
-Image_Reader
-============
+Image Reader
+============================
 
-a chrome extension for local image reader
+Image Reader 是一个Google Chrome插件，她使浏览器成为一个本地图片浏览器。
+
+
